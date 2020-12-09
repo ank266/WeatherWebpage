@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #f5d020;
+    background-image: linear-gradient(315deg, #f5d020 0%, #f53803 74%);
+}
+
+.name{
+    height:50vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    font-size: 60px;
+}
+
+.temp{
+    font-size: 30px;
+}
+
+
+input[type="submit"]{
+    padding: 20px 35px;
+    border: none;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size: 25px;
+}
+
+.input input[type="text"]{
+    width: 600px;
+    height: 68px;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 25px;
+}
+
