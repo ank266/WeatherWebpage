@@ -16,7 +16,7 @@ if(input.value === null || input.value === ''){
 }
 
 // access the api site with the given argument
-fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=d748a1ec572db05aa09ba6b666f91f12')
+fetch('')
 .then(response => response.json())
 .then(data => {
 
